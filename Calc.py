@@ -2,4 +2,8 @@
 
 print("Calc")
 
-import tkinter
+from tkinter import *
+
+window = Tk()
+
+a = Entry(window, width = "200")
